@@ -4,14 +4,14 @@
 ## Instruções
 ```
 # Clone o repositório
-git clone https://github.com/CarlosSMA/conversao-temperatura
-cd ./conversao-temperatura
+git clone https://github.com/CarlosSMA/conversao-peso
+cd ./conversao-peso
 
 # Construa a imagem
-docker image build -t {Nome_Usuario}/conversao-temperatura:runtime .
+docker image build -t {Nome_Usuario}/conversao-peso:runtime .
 
 # Rode o container
-docker container run --name runtime_dotnet {Nome_Usuario}/conversao-temperatura:runtime
+docker container run --name runtime_dotnet {Nome_Usuario}/conversao-peso:runtime
 
 # Verifique o IP com:
 docker container inspect runtime_dotnet
