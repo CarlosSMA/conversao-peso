@@ -8,7 +8,7 @@ git clone https://github.com/CarlosSMA/conversao-temperatura
 cd ./conversao-temperatura
 
 # Construa a imagem
-docker image build -t {Nome_Usuario}/conversao-temperatura:runtime
+docker image build -t {Nome_Usuario}/conversao-temperatura:runtime .
 
 # Rode o container
 docker container run --name runtime_dotnet {Nome_Usuario}/conversao-temperatura:runtime
